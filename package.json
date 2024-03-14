@@ -1,0 +1,28 @@
+{
+  "name": "zk-mixer",
+  "version": "1.0.0",
+  "description": "a simple zk-mixer in node",
+  "main": "zk-mixer.js",
+  "scripts": {
+    "mixer": "node ./src/zk-mixer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SepehrDamavandi"
+  },
+  "keywords": [
+    "zk-snark",
+    "snark",
+    "example",
+    "demo"
+  ],
+  "author": "Sepehr Damavandi",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
+    "esm": "^3.2.25",
+    "ethers": "^5.7.2",
+    "prompt-sync": "^4.0.0",
+    "snarkjs": "^0.7.0"
+  }
+}
