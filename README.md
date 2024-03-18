@@ -4,11 +4,11 @@ This repository contains a zk-mixer demo based on TornadoCash design. While Torn
 This demo runs a Merkle tree of 3 levels with capacity of 8 leafs and root history of 2.
 
 # How to run ZK-MIXER
-To run this demo first run 
+To run this demo first run the folowwing command to install the required node modules.
 ```code 
 npm install
 ``` 
-to install the required node modules. 
+ 
 
 to generate the proving and verifying key of the circuit run
 ```code
